@@ -57,16 +57,16 @@ const Ipod = () => {
   // Handle selection of a menu item
   const handleSelect = () => {
     setShowMenu(false);
-    if (selectedMenu == 2) {
+    if (selectedMenu === 2) {
       showMusicScreen(true);
     }
-    if (selectedMenu == 3) {
+    if (selectedMenu === 3) {
       setShowGameScreen(true);
     }
-    if (selectedMenu == 4) {
+    if (selectedMenu === 4) {
       setShowSettingScreen(true);
     }
-    if (selectedMenu == 1) {
+    if (selectedMenu === 1) {
       ShowCoverFlow(true);
     }
   };
